@@ -59,15 +59,18 @@ input, select, button {
 }
 
 button {
-  background-color: #00ADB5;
+  background-color: #00adb6;
   color: white;
   border: none;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, transform 0.3s ease-in-out;
 }
 
 button:hover {
-  background-color: #A6E3E9;
+  background-color: #00adb6cc;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  
 }
 
 /* Widescreen (2560px+) */
